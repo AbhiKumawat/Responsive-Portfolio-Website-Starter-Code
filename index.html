@@ -25,8 +25,8 @@
 
     <section class="home" id="home">
       <div class="home-content">
-        <h1>Hi, it's <span>Vritika</span></h1>
-        <h3>I'm a <span>Creative</span></h3>
+        <h1>Hi, it's <span>Vritika </span></h1>
+        <h3>I'm a <span>Creative </span></h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam ab
           vitae, distinctio animi, ratione eius rerun porro iure deleti, error
@@ -50,27 +50,43 @@
         </div>
 
         <div class="btn-group">
-          <a href="#" class="btn">Hire</a>
+          <a href="#" class="btn">Download Resume</a>
           <a href="#contact" class="btn">Contact</a>
         </div>
       </div>
 
-      <div class="home-img"><img src="image.jpg" /></div>
+      <div class="home-img"><img src="vt_music_1.png" /></div>
     </section>
 
     <section class="about" id="about">
-      <div class="about-img">
-        <img src="image.jpg" alt="" />
-      </div>
+      <!-- <div class="about-img">
+        <img src="VT_Spotify.jpg" alt="" />
+      </div> -->
 
       <div class="about-content">
         <h2>About <span>Me</span></h2>
         <p>
-          Lorem ipsum dolor, sit amet djkdhfjk hdjh hfdjkh hkj hkj hjdkfhkjdhfj
-          hjk hkjhghjegh hjdkfhkjdhfj
+          Featured in the Berkely Beacon, I've spent a tremendous time in my
+          music career.
         </p>
-        <a href="#contact" class="btn">Connect</a>
+        <a
+          href="https://berkeleybeacon.com/first-year-releases-ep-sittin-in-317/"
+          class="btn"
+          >Read More</a
+        >
       </div>
+
+      <iframe
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/album/6OExUi9Rq4sahe0WhLonMv?utm_source=generator&theme=0"
+        width="100%"
+        height="500"
+        frameborder="0"
+        allowfullscreen="1"
+        autoplay="1"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
     </section>
 
     <section class="services" id="services">
@@ -169,5 +185,13 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+      let spotifyButton = document.querySelectorAll(
+        "[data-testid=play-pause-button]"
+      );
+      if (spotifyButton) {
+        spotifyButton[0].click();
+      }
+    </script>
   </body>
 </html>

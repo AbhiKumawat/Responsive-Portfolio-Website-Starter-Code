@@ -14,7 +14,7 @@ html {
 }
 :root {
   --bg-color: #080808;
-  --second-bg-color: #001005;
+  --second-bg-color: #001005ce;
   --text-color: white;
   --main-color: #00ff51;
 }
@@ -111,8 +111,8 @@ section {
 }
 @keyframes breathe {
   0% {
-    box-shadow: 0 0 0 15px var(--main-color),
-      0 0 0 30px rgba(129, 239, 186, 0.3), 0 0 0 45px rgba(188, 243, 216, 0.3);
+    box-shadow: 0 0 0 15px var(--main-color), 0 0 0 30px rgba(77, 238, 160, 0.3),
+      0 0 0 45px rgba(188, 243, 216, 0.3);
     /* box-shadow: 0 0 0 15px rgba(188, 237, 243, 0.3),
       0 0 0 30px rgba(188, 237, 243, 0.3), 0 0 0 45px rgba(188, 237, 243, 0.3); */
   }
